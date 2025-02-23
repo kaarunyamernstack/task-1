@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    background-color: white;
+    margin-bottom: 30px;
+ }   
+ .nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 15px;
+    margin-right: 40px;
+
+ }
+ .nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 260px;
+
+ }
+ .logo{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 190px;
+ }
+ .login{
+    color: #fa7436;
+ }
+ .signup{
+    background-color: #fa7436;
+    border-radius: 4px;
+    padding: 10px 35px;
+    color: white;
+    text-shadow: 2px 2px 8px #fa7436;
+   
+ }
+ .hero{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 50px;
+ }
+ .hero-content{
+    margin: 15px 0px;
+   
+
+    
+ }
+ .hero-content span{
+    color: #fa7436;
+ }
+ button{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    color:#fa7436;
+    border-radius: 4px;
+    background-color:white;
+    border-color: #fa7436;
+    position: relative;
+    bottom: 130px;
+    margin-left: 190px;
+ }
+ .hero.image{
+    margin-left: 160px;
+    position: relative;
+    bottom: 150px;
+   
+ }
+ h1{
+   width:100%;
+    max-height: 500px;
+    margin-left: 190px;
+    font-size: 50px;
+    position: relative;
+    bottom: 160px;
+    
+}
+p{
+   position: relative;
+    bottom: 130px;
+    max-width: 600px;
+    max-height: 300px;
+    margin-left: 190px;
+    font-weight: lighter;
+    gap: 5px;
+}
+
+    
+ 
+ 
