@@ -97,6 +97,59 @@ p{
     font-weight: lighter;
     gap: 5px;
 }
+.container{
+   display: flex;
+   gap: 50px;
+   margin: 30px;
+   margin-left: 350px;
+   position: relative;
+   bottom: 130px;
+
+}
+.explore{
+   background-color: #fa7436;
+   border: none;
+   border-radius: 4px;
+   padding: 8px 15px;
+   color: white;
+   position: relative;
+   top: 7px;
+  
+   
+ 
+}
+.location2{border: none;
+color: #fa7436;
+font-weight: bolder;
+font-size: 25px;
+}
+.guest2{border: none;
+   color: #fa7436;
+   font-weight: bolder;
+   font-size: 25px;
+   }
+   .date1{border: none;
+       color: #fa7436;
+       font-weight: bolder;
+       font-size: 25px;
+       }
+       
+
+.date{
+   padding-top: 15px;
+   color: #666666;
+   font-size: 15px;
+}
+.guest{
+padding-top: 15px;
+color: #666666;
+font-size: 15px;
+}
+.location{ padding-top: 15px;
+   color: #666666;
+   font-size: 15px;
+   
+}
 
     
  
