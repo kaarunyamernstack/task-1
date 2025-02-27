@@ -38,10 +38,10 @@ body{
  .login{
     color: #fa7436;
  }
- .signup{
+ a.signup{
     background-color: #fa7436;
     border-radius: 4px;
-    padding: 10px 35px;
+    padding: 8px 12px;
     color: white;
     text-shadow: 2px 2px 8px #fa7436;
    
@@ -71,6 +71,8 @@ padding: 50px;
     border-color: #fa7436;
     position: relative;
     bottom: 130px;
+    
+    border-color: #fa7436;
     margin-left: 190px;
  }
  .hero.image{
@@ -97,60 +99,68 @@ p{
     font-weight: lighter;
     gap: 5px;
 }
-.container{
-   display: flex;
-   gap: 50px;
-   margin: 30px;
-   margin-left: 350px;
-   position: relative;
-   bottom: 130px;
+/* .container{
+   display:flex;
+   
+ position: relative;
+ width: 1000px;
+ height: 700px;
 
+}
+.loc2{
+   color: #666666;
+   font-weight: lighter;
+   padding-top: 15px;
+}
+.date2{
+   color: #666666;
+   font-weight: lighter;
+   padding-top: 15px;
+}
+.gue2{
+   color: #666666;
+   font-weight: lighter;
+   padding-top: 15px;
+}
+select{
+   border: none;
+   color: #fa7436;
+   position: relative;
+   right:4px;
+}
+label{
+   font-size: 17px;
+   font-weight: bold;
+   padding-top: 7px;
+}
+.explorer{
+  display: inline-block;
+}
+  */
+ .box{
+   position: relative;
+   left: 260px;
+   bottom: 180px;
+ } 
+.box2{
+   display: flex;
+   list-style: none;
+   gap: 50px;
+}
+select{
+   border: none;
+}
+.mark1{
+   padding-top: 10px;
+   font-weight: lighter;
+   color: #666666;
+}
+select{
+  color: #fa7436; 
 }
 .explore{
    background-color: #fa7436;
-   border: none;
-   border-radius: 4px;
-   padding: 8px 15px;
+   padding:16px ;
    color: white;
-   position: relative;
-   top: 7px;
-  
-   
- 
+   border-radius: 4px;
 }
-.location2{border: none;
-color: #fa7436;
-font-weight: bolder;
-font-size: 25px;
-}
-.guest2{border: none;
-   color: #fa7436;
-   font-weight: bolder;
-   font-size: 25px;
-   }
-   .date1{border: none;
-       color: #fa7436;
-       font-weight: bolder;
-       font-size: 25px;
-       }
-       
-
-.date{
-   padding-top: 15px;
-   color: #666666;
-   font-size: 15px;
-}
-.guest{
-padding-top: 15px;
-color: #666666;
-font-size: 15px;
-}
-.location{ padding-top: 15px;
-   color: #666666;
-   font-size: 15px;
-   
-}
-
-    
- 
- 
