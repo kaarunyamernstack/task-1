@@ -93,7 +93,7 @@ padding: 50px;
 p{
    position: relative;
     bottom: 130px;
-    max-width: 600px;
+    max-width: 900px;
     max-height: 300px;
     margin-left: 190px;
     font-weight: lighter;
@@ -164,3 +164,59 @@ select{
    color: white;
    border-radius: 4px;
 }
+.serv2{
+   background-color: #f7f8fc;
+}
+
+.services {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(300px ,3fr));
+   gap: 20px;
+   padding: 50px 20px;
+   margin: auto;
+   max-width: 950px;
+   position: relative;
+   bottom: 2px;
+}
+.service-card{
+   background-color: white;
+   padding: 25px;
+   border-radius: 10px;
+}
+.para{
+   font-weight:lighter;
+   color: #666666;
+}
+.serv1{
+   position: relative;
+   bottom:150px;
+   font-size: 25px;
+   text-align: center;}
+   .travels span{
+      color: #fa7436;
+   }
+   .travels p{
+      position: relative;
+      top:1px;
+      left:300px;
+      max-width: 330px;
+      font-size:15px;
+color: #666666;
+   }
+   .travels h2{
+         position: relative;
+         top: 20px;
+         right:110px;
+         text-align: center;
+         font-size: 35px;
+   }
+   .travels{
+      background-color: #f7f8fc;
+      min-height: 30rem;
+      padding: 0 2em 2rem;
+      width: 100%;
+      position: relative;
+      bottom: 120px;
+      
+   }
+ 
